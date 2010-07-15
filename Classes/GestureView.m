@@ -115,7 +115,6 @@
 {
 	NSString *gestureName = [recognizer findBestMatchCenter:&center angle:&angle score:&score];
 	self.caption = [NSString stringWithFormat:@"%@ (%0.2f, %d)", gestureName, score, (int)(360.0f*angle/(2.0f*M_PI))];
-	NSLog(@"%@", self.caption);
 }
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event

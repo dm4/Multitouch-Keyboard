@@ -101,7 +101,6 @@ BOOL moving = NO;
 	[self bringSubviewToFront:canvas];
 }
 -(void) touchEnded{
-	NSLog(@"Window touchEnded");
 	if (!canvas.needSecondStroke) {
 		[self bringSubviewToFront:mimicKeyboard];
 	}
