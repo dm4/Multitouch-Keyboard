@@ -1,0 +1,37 @@
+//
+//  GestureView.h
+//  Gestures
+//
+//  Created by Adam Preble on 4/27/09.
+//  Copyright 2009 Giraffe Lab. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+#import "GLGestureRecognizer.h"
+
+@protocol GestureViewDelegate
+
+-(void) detectMove;
+-(void) touchEnded;
+
+@end
+
+
+@interface GestureView : UIView {
+	id<GestureViewDelegate> delegate;
+	NSString *caption;
+	GLGestureRecognizer *recognizer;
+	CGPoint center;
+	float score, angle;
+	NSMutableArray *preTouchPoints;
+	int needSecondStroke;
+}
+@property (nonatomic, retain) id<GestureViewDelegate> delegate;
+@property (nonatomic, copy) NSString *caption;
+@property (nonatomic, retain) GLGestureRecognizer *recognizer;
+@property (nonatomic, assign) CGPoint center;
+@property (nonatomic, assign) float score;
+@property (nonatomic, assign) float angle;
+@property (nonatomic, retain) NSMutableArray *preTouchPoints;
+@property (nonatomic, assign) int needSecondStroke;
+@end

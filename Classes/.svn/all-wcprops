@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn_multitouch/!svn/ver/15/Multitouch/Multitouch_v2/Classes
+END
+GLGestureRecognizer.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn_multitouch/!svn/ver/15/Multitouch/Multitouch_v2/Classes/GLGestureRecognizer.h
+END
+KeyboardAppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn_multitouch/!svn/ver/15/Multitouch/Multitouch_v2/Classes/KeyboardAppDelegate.h
+END
+GLGestureRecognizer.m
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn_multitouch/!svn/ver/15/Multitouch/Multitouch_v2/Classes/GLGestureRecognizer.m
+END
+KeyboardAppDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn_multitouch/!svn/ver/15/Multitouch/Multitouch_v2/Classes/KeyboardAppDelegate.m
+END
+TapDetectingWindow.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn_multitouch/!svn/ver/15/Multitouch/Multitouch_v2/Classes/TapDetectingWindow.h
+END
+GestureView.xib
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn_multitouch/!svn/ver/15/Multitouch/Multitouch_v2/Classes/GestureView.xib
+END
+Window.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn_multitouch/!svn/ver/15/Multitouch/Multitouch_v2/Classes/Window.h
+END
+TapDetectingWindow.m
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn_multitouch/!svn/ver/15/Multitouch/Multitouch_v2/Classes/TapDetectingWindow.m
+END
+ViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn_multitouch/!svn/ver/15/Multitouch/Multitouch_v2/Classes/ViewController.xib
+END
+GestureView.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn_multitouch/!svn/ver/15/Multitouch/Multitouch_v2/Classes/GestureView.h
+END
+Window.m
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn_multitouch/!svn/ver/15/Multitouch/Multitouch_v2/Classes/Window.m
+END
+ViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn_multitouch/!svn/ver/15/Multitouch/Multitouch_v2/Classes/ViewController.h
+END
+GestureView.m
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn_multitouch/!svn/ver/15/Multitouch/Multitouch_v2/Classes/GestureView.m
+END
+ViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn_multitouch/!svn/ver/15/Multitouch/Multitouch_v2/Classes/ViewController.m
+END
+MimicView.xib
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn_multitouch/!svn/ver/15/Multitouch/Multitouch_v2/Classes/MimicView.xib
+END

@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'Multitouch_v1' target in the 'Multitouch_v1' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+#endif

@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		E30E03201181547A00D02A29 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E30E031F1181547A00D02A29 /* MainWindow.xib */; };
+		E30E03231181549100D02A29 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E30E03211181549100D02A29 /* ViewController.xib */; };
+		E30E03241181549100D02A29 /* GestureView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E30E03221181549100D02A29 /* GestureView.xib */; };
+		E30E0327118154A400D02A29 /* KeyboardAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E30E0326118154A400D02A29 /* KeyboardAppDelegate.m */; };
+		E30E03EA11818ACF00D02A29 /* Gestures.json in Resources */ = {isa = PBXBuildFile; fileRef = E30E03E911818ACF00D02A29 /* Gestures.json */; };
+		E31C4591119F069100EC50F1 /* TapDetectingWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = E31C4590119F069100EC50F1 /* TapDetectingWindow.m */; };
+		E33CE49711AA2200009A749F /* MimicView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E33CE49611AA2200009A749F /* MimicView.xib */; };
+		E33CE51811AA2C13009A749F /* Window.m in Sources */ = {isa = PBXBuildFile; fileRef = E33CE51711AA2C13009A749F /* Window.m */; };
+		E39B7C0B11E885390016AA6A /* backspace.png in Resources */ = {isa = PBXBuildFile; fileRef = E39B7C0811E885390016AA6A /* backspace.png */; };
+		E39B7C0C11E885390016AA6A /* shift_on.png in Resources */ = {isa = PBXBuildFile; fileRef = E39B7C0911E885390016AA6A /* shift_on.png */; };
+		E39B7C0D11E885390016AA6A /* shift.png in Resources */ = {isa = PBXBuildFile; fileRef = E39B7C0A11E885390016AA6A /* shift.png */; };
+		E39B7C1111E888090016AA6A /* backspace_on.png in Resources */ = {isa = PBXBuildFile; fileRef = E39B7C1011E888090016AA6A /* backspace_on.png */; };
+		E3FB095011814BD300FAB832 /* GestureView.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FB092B11814BD300FAB832 /* GestureView.m */; };
+		E3FB095111814BD300FAB832 /* GLGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FB092D11814BD300FAB832 /* GLGestureRecognizer.m */; };
+		E3FB095611814BD300FAB832 /* CDataScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FB093711814BD300FAB832 /* CDataScanner.m */; };
+		E3FB095711814BD300FAB832 /* CDataScanner_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FB093A11814BD300FAB832 /* CDataScanner_Extensions.m */; };
+		E3FB095811814BD300FAB832 /* NSCharacterSet_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FB093C11814BD300FAB832 /* NSCharacterSet_Extensions.m */; };
+		E3FB095911814BD300FAB832 /* NSDictionary_JSONExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FB093E11814BD300FAB832 /* NSDictionary_JSONExtensions.m */; };
+		E3FB095A11814BD300FAB832 /* NSScanner_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FB094011814BD300FAB832 /* NSScanner_Extensions.m */; };
+		E3FB095B11814BD300FAB832 /* CJSONDeserializer.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FB094311814BD300FAB832 /* CJSONDeserializer.m */; };
+		E3FB095C11814BD300FAB832 /* CJSONScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FB094511814BD300FAB832 /* CJSONScanner.m */; };
+		E3FB095D11814BD300FAB832 /* CJSONSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FB094711814BD300FAB832 /* CJSONSerializer.m */; };
+		E3FB095E11814BD300FAB832 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FB094911814BD300FAB832 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D6058910D05DD3D006BFB54 /* Multitouch_v1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Multitouch_v1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Multitouch_v1_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Multitouch_v1_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Multitouch_v1-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Multitouch_v1-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		E30E031F1181547A00D02A29 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainWindow.xib; path = Classes/MainWindow.xib; sourceTree = "<group>"; };
+		E30E03211181549100D02A29 /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ViewController.xib; path = Classes/ViewController.xib; sourceTree = "<group>"; };
+		E30E03221181549100D02A29 /* GestureView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = GestureView.xib; path = Classes/GestureView.xib; sourceTree = "<group>"; };
+		E30E0325118154A400D02A29 /* KeyboardAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardAppDelegate.h; sourceTree = "<group>"; };
+		E30E0326118154A400D02A29 /* KeyboardAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardAppDelegate.m; sourceTree = "<group>"; };
+		E30E03E911818ACF00D02A29 /* Gestures.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Gestures.json; sourceTree = "<group>"; };
+		E31C458F119F069100EC50F1 /* TapDetectingWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TapDetectingWindow.h; sourceTree = "<group>"; };
+		E31C4590119F069100EC50F1 /* TapDetectingWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TapDetectingWindow.m; sourceTree = "<group>"; };
+		E33CE49611AA2200009A749F /* MimicView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MimicView.xib; path = Classes/MimicView.xib; sourceTree = "<group>"; };
+		E33CE51611AA2C13009A749F /* Window.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Window.h; sourceTree = "<group>"; };
+		E33CE51711AA2C13009A749F /* Window.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Window.m; sourceTree = "<group>"; };
+		E39B7C0811E885390016AA6A /* backspace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backspace.png; sourceTree = "<group>"; };
+		E39B7C0911E885390016AA6A /* shift_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shift_on.png; sourceTree = "<group>"; };
+		E39B7C0A11E885390016AA6A /* shift.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shift.png; sourceTree = "<group>"; };
+		E39B7C1011E888090016AA6A /* backspace_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backspace_on.png; sourceTree = "<group>"; };
+		E3FB092A11814BD300FAB832 /* GestureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureView.h; sourceTree = "<group>"; };
+		E3FB092B11814BD300FAB832 /* GestureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GestureView.m; sourceTree = "<group>"; };
+		E3FB092C11814BD300FAB832 /* GLGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLGestureRecognizer.h; sourceTree = "<group>"; };
+		E3FB092D11814BD300FAB832 /* GLGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLGestureRecognizer.m; sourceTree = "<group>"; };
+		E3FB093611814BD300FAB832 /* CDataScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDataScanner.h; sourceTree = "<group>"; };
+		E3FB093711814BD300FAB832 /* CDataScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDataScanner.m; sourceTree = "<group>"; };
+		E3FB093911814BD300FAB832 /* CDataScanner_Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDataScanner_Extensions.h; sourceTree = "<group>"; };
+		E3FB093A11814BD300FAB832 /* CDataScanner_Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDataScanner_Extensions.m; sourceTree = "<group>"; };
+		E3FB093B11814BD300FAB832 /* NSCharacterSet_Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSCharacterSet_Extensions.h; sourceTree = "<group>"; };
+		E3FB093C11814BD300FAB832 /* NSCharacterSet_Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSCharacterSet_Extensions.m; sourceTree = "<group>"; };
+		E3FB093D11814BD300FAB832 /* NSDictionary_JSONExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDictionary_JSONExtensions.h; sourceTree = "<group>"; };
+		E3FB093E11814BD300FAB832 /* NSDictionary_JSONExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDictionary_JSONExtensions.m; sourceTree = "<group>"; };
+		E3FB093F11814BD300FAB832 /* NSScanner_Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSScanner_Extensions.h; sourceTree = "<group>"; };
+		E3FB094011814BD300FAB832 /* NSScanner_Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSScanner_Extensions.m; sourceTree = "<group>"; };
+		E3FB094211814BD300FAB832 /* CJSONDeserializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONDeserializer.h; sourceTree = "<group>"; };
+		E3FB094311814BD300FAB832 /* CJSONDeserializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONDeserializer.m; sourceTree = "<group>"; };
+		E3FB094411814BD300FAB832 /* CJSONScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONScanner.h; sourceTree = "<group>"; };
+		E3FB094511814BD300FAB832 /* CJSONScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONScanner.m; sourceTree = "<group>"; };
+		E3FB094611814BD300FAB832 /* CJSONSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONSerializer.h; sourceTree = "<group>"; };
+		E3FB094711814BD300FAB832 /* CJSONSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONSerializer.m; sourceTree = "<group>"; };
+		E3FB094811814BD300FAB832 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E3FB094911814BD300FAB832 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E3FB093511814BD300FAB832 /* TouchJSON */,
+				E33CE51611AA2C13009A749F /* Window.h */,
+				E33CE51711AA2C13009A749F /* Window.m */,
+				E30E0325118154A400D02A29 /* KeyboardAppDelegate.h */,
+				E30E0326118154A400D02A29 /* KeyboardAppDelegate.m */,
+				E3FB092A11814BD300FAB832 /* GestureView.h */,
+				E3FB092B11814BD300FAB832 /* GestureView.m */,
+				E3FB092C11814BD300FAB832 /* GLGestureRecognizer.h */,
+				E3FB092D11814BD300FAB832 /* GLGestureRecognizer.m */,
+				E3FB094811814BD300FAB832 /* ViewController.h */,
+				E3FB094911814BD300FAB832 /* ViewController.m */,
+				E31C458F119F069100EC50F1 /* TapDetectingWindow.h */,
+				E31C4590119F069100EC50F1 /* TapDetectingWindow.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Multitouch_v1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Multitouch_v1_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E39B7C1011E888090016AA6A /* backspace_on.png */,
+				E39B7C0811E885390016AA6A /* backspace.png */,
+				E39B7C0911E885390016AA6A /* shift_on.png */,
+				E39B7C0A11E885390016AA6A /* shift.png */,
+				E30E03E911818ACF00D02A29 /* Gestures.json */,
+				E30E03211181549100D02A29 /* ViewController.xib */,
+				E30E03221181549100D02A29 /* GestureView.xib */,
+				E33CE49611AA2200009A749F /* MimicView.xib */,
+				E30E031F1181547A00D02A29 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Multitouch_v1-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3FB093511814BD300FAB832 /* TouchJSON */ = {
+			isa = PBXGroup;
+			children = (
+				E3FB093611814BD300FAB832 /* CDataScanner.h */,
+				E3FB093711814BD300FAB832 /* CDataScanner.m */,
+				E3FB093811814BD300FAB832 /* Extensions */,
+				E3FB094111814BD300FAB832 /* JSON */,
+			);
+			path = TouchJSON;
+			sourceTree = "<group>";
+		};
+		E3FB093811814BD300FAB832 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E3FB093911814BD300FAB832 /* CDataScanner_Extensions.h */,
+				E3FB093A11814BD300FAB832 /* CDataScanner_Extensions.m */,
+				E3FB093B11814BD300FAB832 /* NSCharacterSet_Extensions.h */,
+				E3FB093C11814BD300FAB832 /* NSCharacterSet_Extensions.m */,
+				E3FB093D11814BD300FAB832 /* NSDictionary_JSONExtensions.h */,
+				E3FB093E11814BD300FAB832 /* NSDictionary_JSONExtensions.m */,
+				E3FB093F11814BD300FAB832 /* NSScanner_Extensions.h */,
+				E3FB094011814BD300FAB832 /* NSScanner_Extensions.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E3FB094111814BD300FAB832 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				E3FB094211814BD300FAB832 /* CJSONDeserializer.h */,
+				E3FB094311814BD300FAB832 /* CJSONDeserializer.m */,
+				E3FB094411814BD300FAB832 /* CJSONScanner.h */,
+				E3FB094511814BD300FAB832 /* CJSONScanner.m */,
+				E3FB094611814BD300FAB832 /* CJSONSerializer.h */,
+				E3FB094711814BD300FAB832 /* CJSONSerializer.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Multitouch_v1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Multitouch_v1" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Multitouch_v1;
+			productName = Multitouch_v1;
+			productReference = 1D6058910D05DD3D006BFB54 /* Multitouch_v1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Multitouch_v1" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Multitouch_v1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E30E03201181547A00D02A29 /* MainWindow.xib in Resources */,
+				E30E03231181549100D02A29 /* ViewController.xib in Resources */,
+				E30E03241181549100D02A29 /* GestureView.xib in Resources */,
+				E30E03EA11818ACF00D02A29 /* Gestures.json in Resources */,
+				E33CE49711AA2200009A749F /* MimicView.xib in Resources */,
+				E39B7C0B11E885390016AA6A /* backspace.png in Resources */,
+				E39B7C0C11E885390016AA6A /* shift_on.png in Resources */,
+				E39B7C0D11E885390016AA6A /* shift.png in Resources */,
+				E39B7C1111E888090016AA6A /* backspace_on.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				E3FB095011814BD300FAB832 /* GestureView.m in Sources */,
+				E3FB095111814BD300FAB832 /* GLGestureRecognizer.m in Sources */,
+				E3FB095611814BD300FAB832 /* CDataScanner.m in Sources */,
+				E3FB095711814BD300FAB832 /* CDataScanner_Extensions.m in Sources */,
+				E3FB095811814BD300FAB832 /* NSCharacterSet_Extensions.m in Sources */,
+				E3FB095911814BD300FAB832 /* NSDictionary_JSONExtensions.m in Sources */,
+				E3FB095A11814BD300FAB832 /* NSScanner_Extensions.m in Sources */,
+				E3FB095B11814BD300FAB832 /* CJSONDeserializer.m in Sources */,
+				E3FB095C11814BD300FAB832 /* CJSONScanner.m in Sources */,
+				E3FB095D11814BD300FAB832 /* CJSONSerializer.m in Sources */,
+				E3FB095E11814BD300FAB832 /* ViewController.m in Sources */,
+				E30E0327118154A400D02A29 /* KeyboardAppDelegate.m in Sources */,
+				E31C4591119F069100EC50F1 /* TapDetectingWindow.m in Sources */,
+				E33CE51811AA2C13009A749F /* Window.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Multitouch_v1_Prefix.pch;
+				INFOPLIST_FILE = "Multitouch_v1-Info.plist";
+				PRODUCT_NAME = Multitouch_v1;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Multitouch_v1_Prefix.pch;
+				INFOPLIST_FILE = "Multitouch_v1-Info.plist";
+				PRODUCT_NAME = Multitouch_v1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphonesimulator4.0;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphonesimulator4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Multitouch_v1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Multitouch_v1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
