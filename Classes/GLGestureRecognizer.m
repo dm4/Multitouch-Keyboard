@@ -139,6 +139,13 @@ float DistanceAtBestAngle(CGPoint *samples, int samplePoints, CGPoint *template)
 	center = Centroid(samples, samplePoints);
 	Translate(samples, samplePoints, -center.x, -center.y); // Recenter
 	
+	// add by dm4
+	for (i = 0; i<samplePoints; i++) {
+		printf("[%.2lf, %.2lf], ", samples[i].x, samples[i].y);
+	}
+	puts("");
+	// add by dm4 END
+	
 	// Now we can compare the samples against our known samples:
 	NSString *bestTemplateName = nil;
 	float best = INFINITY;
@@ -164,6 +171,9 @@ float DistanceAtBestAngle(CGPoint *samples, int samplePoints, CGPoint *template)
 #ifndef NDEBUG
 	NSLog(@"Best: %@ with %0.2f", bestTemplateName, best);
 #endif
+	// add by dm4
+	bestTemplateName = [NSString stringWithString:[bestTemplateName substringToIndex:1]];
+	// add by dm4 END
 	if (outScore)
 		*outScore = best;
 	[delegate recognizerCallback:bestTemplateName];

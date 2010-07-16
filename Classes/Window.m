@@ -69,7 +69,7 @@ BOOL moving = NO;
 #pragma mark GLGestureRecognizerDelegate
 
 -(void)recognizerCallback:(NSString *)character{
-	NSLog(@"recognize:%@",character);
+	//NSLog(@"recognize:%@",character);
 	if (canvas.needSecondStroke) {
 		textView.text = [textView.text stringByAppendingFormat:@"%d", canvas.needSecondStroke];
 		canvas.needSecondStroke = 0;
